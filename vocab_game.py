@@ -100,11 +100,11 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 3: A `d _ g` is a human's best friend. 🐶",
+    "ข้อ 3: A `Wat _ _ _ _lon` is a human's best friend. 🍉",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 4: A `c _ t` likes to chase mice. 🐱",
+    "ข้อ 4: A `Pe _ _ _ l` likes to chase mice. ✏️ ",
     value=st.session_state.ans4_val,
 )
 
