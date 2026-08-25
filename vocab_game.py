@@ -101,4 +101,4 @@ if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2)
 
 st.divider()
-st.write("นางนางสาวพัทธ์ธีรา ศรีเสน่ห์ เลขที่ 7 ม.4/9")
+st.write("นางสาวพัทธ์ธีรา ศรีเสน่ห์ เลขที่ 7 ม.4/9")
