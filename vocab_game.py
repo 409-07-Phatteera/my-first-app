@@ -52,14 +52,14 @@ def show_result_dialog(ans1, ans2, ans3, ans4):
         st.error(f"❌ ข้อ 2: ยังไม่ถูกต้อง (คุณตอบ '{u_ans2}')")
 
     # ตรวจข้อ 3
-    if u_ans3 == "Watermelon":
+    if u_ans3 == "watermelon":
         st.success("✅ ข้อ 3: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 3: ยังไม่ถูกต้อง (คุณตอบ '{u_ans3}')")
 
     # ตรวจข้อ 4
-    if u_ans4 == "Pencil":
+    if u_ans4 == "pencil":
         st.success("✅ ข้อ 4: ถูกต้อง")
         score += 1
     else:
@@ -100,11 +100,11 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 3: A `Wat _ _ _ _lon` is a human's best friend. 🍉",
+    "ข้อ 3: A `wat _ _ _ _lon` is a human's best friend. 🍉",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 4: A `Pe _ _ _ l` likes to chase mice. ✏️ ",
+    "ข้อ 4: A `pe _ _ _ l` likes to chase mice. ✏️ ",
     value=st.session_state.ans4_val,
 )
 
